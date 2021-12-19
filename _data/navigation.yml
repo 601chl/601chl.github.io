@@ -4,8 +4,11 @@ main:
     url: /categories/ 
   - title: "Tag"
     url: /tags/ 
-    
-    # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Sitemap"
+    url: /sitemap/    
+ 
+ 
+  # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
