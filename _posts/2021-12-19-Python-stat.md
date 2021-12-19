@@ -1,3 +1,14 @@
+---
+layout: single
+title:  "Python_stat_정리"
+categories: python
+tag: [python, stat, summarize]
+toc: true
+---
+
+
+
+
 ```python
 import numpy as np
 import pandas as pd
