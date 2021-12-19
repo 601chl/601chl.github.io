@@ -38,7 +38,7 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : # 10 # 5 (default)
+    num_posts            : 10 # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
     theme                : # "github-light" (default), "github-dark"
@@ -285,7 +285,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
       show_date: true
