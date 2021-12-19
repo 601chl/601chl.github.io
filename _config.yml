@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -285,22 +285,12 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: # true
       share: true
       related: true
       show_date: true
       
 date_format: "%Y-%m-%d"
-
-
-comments:
-  provider: "facebook"
-  facebook:
-    appid: # optional
-    num_posts: 5 # 5 (default)
-    colorscheme: "light" # "light" (default)
-
-
 
 
 
