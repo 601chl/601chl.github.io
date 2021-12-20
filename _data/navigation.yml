@@ -10,8 +10,7 @@ main:
 #     url: /about/
 #   - title: "연도별 포스트"
 #     url: /posts/
- 
-  # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+   # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
