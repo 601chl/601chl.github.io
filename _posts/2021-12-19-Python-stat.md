@@ -464,7 +464,7 @@ sns.histplot(sample_mean_array,color='black', kde=True)
 
 
     
-![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_27_1.png)
+![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_27_1.png?raw=true)
     
 
 
@@ -499,7 +499,7 @@ plt.show()
 
 
     
-![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_28_0.png)
+![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_28_0.png?raw=true)
     
 
 
@@ -590,7 +590,7 @@ plt.show() #표본수가 30이 가장 평균 4 에 가까운것을 확인할 수
 
 
     
-![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_32_0.png)
+![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_32_0.png?raw=true)
     
 
 
@@ -630,7 +630,7 @@ sns.violinplot(x='size', y='sample_mean',data=sim_result)
 
 
     
-![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_33_1.png)
+![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_33_1.png?raw=true)
     
 
 
@@ -674,7 +674,7 @@ plt.show() #샘플사이즈가 커짐에 따라서 표본평균의 표준편차(
 
 
     
-![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_36_0.png)
+![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_36_0.png?raw=true)
     
 
 
@@ -703,7 +703,7 @@ plt.ylabel('mean std value')
 
 
     
-![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_37_1.png)
+![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_37_1.png?raw=true)
     
 
 
@@ -723,7 +723,7 @@ plt.show()
 
 
     
-![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_39_0.png)
+![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_39_0.png?raw=true)
     
 
 
@@ -762,7 +762,7 @@ plt.show()
 
 
     
-![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_42_0.png)
+![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_42_0.png?raw=true)
     
 
 
@@ -852,7 +852,7 @@ plt.show()
 
 
     
-![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_48_0.png)
+![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_48_0.png?raw=true)
     
 
 
@@ -871,7 +871,7 @@ plt.show()
 
 
     
-![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_49_0.png)
+![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_49_0.png?raw=true)
     
 
 
@@ -1230,7 +1230,7 @@ plt.show() # 온도가 올라감에 따라 beer 가 올라감
 
 
     
-![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_73_0.png)
+![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_73_0.png?raw=true)
     
 
 
@@ -1363,7 +1363,7 @@ plt.show()
 
 
     
-![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_79_0.png)
+![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_79_0.png?raw=true)
     
 
 
@@ -1443,7 +1443,7 @@ fig = sm.qqplot(resid, line='s')
 
 
     
-![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_83_0.png)
+![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_83_0.png?raw=true)
     
 
 
@@ -1479,7 +1479,7 @@ plt.show()
 
 
     
-![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_86_0.png)
+![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_86_0.png?raw=true)
     
 
 
@@ -1652,7 +1652,7 @@ sns.pairplot(data = sales, hue = 'weather', palette = 'Blues')
 
 
     
-![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_96_1.png)
+![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_96_1.png?raw=true)
     
 
 
@@ -1737,7 +1737,7 @@ plt.show()
 
 
     
-![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_99_0.png)
+![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_99_0.png?raw=true)
     
 
 
@@ -1751,7 +1751,7 @@ plt.show()
 
 
     
-![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_100_0.png)
+![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_100_0.png?raw=true)
     
 
 
@@ -3280,7 +3280,7 @@ plt.show()
 
 
     
-![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_160_0.png)
+![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_160_0.png?raw=true)
     
 
 
@@ -3392,7 +3392,7 @@ y.plot(kind='hist') #정규본포와 많이 거리가 있다.
 
 
     
-![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_170_1.png)
+![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_170_1.png?raw=true)
     
 
 
@@ -3411,7 +3411,7 @@ pd.DataFrame(y_hat).plot(kind='hist')  #정규본포와 많이 거리가 있다.
 
 
     
-![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_171_1.png)
+![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_171_1.png?raw=true)
     
 
 
@@ -3427,7 +3427,7 @@ ax2 = sns.distplot(y_hat, hist=False, label = "y_hat")
 
 
     
-![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_172_0.png)
+![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_172_0.png?raw=true)
     
 
 
@@ -3513,7 +3513,7 @@ plt.show()
 
 
     
-![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_178_0.png)
+![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_178_0.png?raw=true)
     
 
 
@@ -3531,7 +3531,7 @@ ax2 = sns.distplot(y_hat, hist=False, label='y_hat')
 
 
     
-![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_179_0.png)
+![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_179_0.png?raw=true)
     
 
 
@@ -3588,7 +3588,7 @@ ax2 = sns.distplot(y_hat, hist = False, label = 'y_hat')
 
 
     
-![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_183_0.png)
+![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_183_0.png?raw=true)
     
 
 
@@ -3709,7 +3709,7 @@ sns.distplot(ndf.mpg)  #정규분포에 약간 못미치는 형태
 
 
     
-![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_187_1.png)
+![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_187_1.png?raw=true)
     
 
 
@@ -3732,7 +3732,7 @@ sns.distplot(ndf_mpg_df.mpg)
 
 
     
-![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_188_1.png)
+![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_188_1.png?raw=true)
     
 
 
@@ -3753,7 +3753,7 @@ sns.distplot(log_mpb) #왜곡됬던게 바뀐것을 확인할 수 있다.
 
 
     
-![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_189_1.png)
+![png](https://github.com/601chl/601chl.github.io/blob/master/_posts/output_189_1.png?raw=true)
     
 
 
