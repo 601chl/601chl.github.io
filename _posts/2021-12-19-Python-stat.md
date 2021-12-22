@@ -4,6 +4,7 @@ title:  "Python_stat_정리"
 categories: python
 tag: [python, stat, summarize]
 toc: true
+toc_sticky: false
 author_profile: false
 sidebar:
     nav: "docs"
