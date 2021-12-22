@@ -12,9 +12,9 @@ main:
 docs:
   - title: "목차"
   children:
-    - title:"Category"
+    - title: "Category"
       url: /categories/
-    - title:"Tag"
+    - title: "Tag"
       url: /tags/
 
   # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
