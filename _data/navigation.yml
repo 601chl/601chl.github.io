@@ -8,10 +8,9 @@ main:
     url: /about/
   - title: "Search"
     url: /search/
-    
-    
+
 docs:
-  - title: "대목차"
+  - title: "목차"
   children:
     - title:"Category"
       url: /categories/
