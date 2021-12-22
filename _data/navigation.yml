@@ -11,11 +11,11 @@ main:
 
 docs:
   - title: "목차"
-  children:
-    - title: "Category"
-      url: /categories/
-    - title: "Tag"
-      url: /tags/
+    children:
+      - title: "Category"
+        url: /categories/
+      - title: "Tag"
+        url: /tags/
 
   # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
