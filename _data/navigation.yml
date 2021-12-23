@@ -10,12 +10,12 @@ main:
     url: /search/
 
 docs:
-  - title: "목차"
+  - title: "Category"
     children:
-      - title: "Category"
-        url: /categories/
-      - title: "Tag"
-        url: /tags/
+      - title: "Python"
+        url: /categories/#python
+      - title: "Coding"
+        url: /categories/#coding-practice
 
   # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
