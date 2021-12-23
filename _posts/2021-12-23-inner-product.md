@@ -25,7 +25,7 @@ search: true
 
 간단한 식 (내적은 어떤 연산인가?)      
     
-$$<u,v> = u*v = u_1v_1 + u_2v_2 + ⋯ + u_nv_n$$
+![image](https://user-images.githubusercontent.com/86215536/147205293-02a810e7-5117-411c-8ef6-41b3244c1a7a.png)
 
 <br>
 <br>
@@ -207,12 +207,6 @@ numpy 라이브러리에서 numpy.dot은 행렬의 곱을 표현 할 때 사용�
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
     
 출처 : [개발자비행일지, numpy.dot()](https://cyber0946.tistory.com/99)
