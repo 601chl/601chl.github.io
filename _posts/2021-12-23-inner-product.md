@@ -12,7 +12,8 @@ search: true
 ---
 
 
-## 목표 : a와 b의 내적을 return 하도록 solution 함수완성하기.
+## 목표     
+a와 b의 내적을 return 하도록 solution 함수완성하기.
 
 ### 내적이란?
 
