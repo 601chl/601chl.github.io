@@ -11,6 +11,7 @@ sidebar:
 search: true
 ---
 
+
 ## 목표 : a와 b의 내적을 return 하도록 solution 함수완성하기.
 
 ### 내적이란?
@@ -23,7 +24,7 @@ search: true
 ‘벡터+벡터=벡터’, ‘스칼라+스칼라=스칼라’와 같은 형태처럼 인풋과 아웃풋의 형태가 같지만, 이 내적이라는 연산은 신기하게도 벡터와 벡터를 연산 하는데 스칼라라는 아웃풋이 도출된다.
 
 간단한 식 (내적은 어떤 연산인가?)      
-
+    
 $$<u,v> = u*v = u_1v_1 + u_2v_2 + ⋯ + u_nv_n$$
 
 <br>
@@ -189,11 +190,11 @@ numpy 라이브러리에서 numpy.dot은 행렬의 곱을 표현 할 때 사용�
 - 행렬 a와 그의 전치 행렬 aT 에 대한 dot은 a 행렬의 요소들의 제곱의 합(스칼라와 같다.)
 - 만약 a가 N차원 행렬이고, b가 1차원 행렬이라면, a의 마지막 축에 b를 곱하여 더한 값을 나타낸다.
 
-
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fd3vdNn%2FbtqZiUf5DJv%2FXa1V7fed221qzeyOXTCpmk%2Fimg.png" align="left" width="60%"/>
-
-
 <br>
+
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fd3vdNn%2FbtqZiUf5DJv%2FXa1V7fed221qzeyOXTCpmk%2Fimg.png" align="left" width="40%"/>
+
+
 <br>
 <br>
 <br>
