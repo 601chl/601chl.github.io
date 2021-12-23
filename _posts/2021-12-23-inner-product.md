@@ -82,7 +82,7 @@ range(len(a)) : 0 ~ len(a)-1 까지의 정수
 #### lambda           
 lambda 인자 : 리턴값           
 람다함수는 결과부분된 부분을 return키워드 없이 자동으로 return해줍니다.              
-<img src="https://wikidocs.net/images/page/22804/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2018-11-07_05.56.24.png" align="left" width="300" height="200"/>
+<img src="https://wikidocs.net/images/page/22804/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2018-11-07_05.56.24.png" align="left"  width="40%"/>
                
 <br>
 <br>
@@ -192,7 +192,7 @@ numpy 라이브러리에서 numpy.dot은 행렬의 곱을 표현 할 때 사용�
 - 만약 a가 N차원 행렬이고, b가 1차원 행렬이라면, a의 마지막 축에 b를 곱하여 더한 값을 나타낸다.
 
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fd3vdNn%2FbtqZiUf5DJv%2FXa1V7fed221qzeyOXTCpmk%2Fimg.png" align="left" width="500" height="500"/>
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fd3vdNn%2FbtqZiUf5DJv%2FXa1V7fed221qzeyOXTCpmk%2Fimg.png" align="left" width="60%"/>
 
 
 <br>
