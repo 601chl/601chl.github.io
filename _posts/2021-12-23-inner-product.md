@@ -87,7 +87,6 @@ lambda 인자 : 리턴값
 <br>
 <br>
 <br>
-<br>
 
 lambda i: a[i]×b[i]           
 i를 인자로 받아서 a[i]×b[i]를 리턴함.          
@@ -200,6 +199,6 @@ numpy 라이브러리에서 numpy.dot은 행렬의 곱을 표현 할 때 사용�
 <br>
 <br>
 <br>
-<br>
-<br>    
+
+
 출처 : [개발자비행일지, numpy.dot()](https://cyber0946.tistory.com/99)
