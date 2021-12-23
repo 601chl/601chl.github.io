@@ -4,7 +4,7 @@ title:  "programmers_coding_문제1_내적"
 categories: coding_practice
 tag: [python, coding, study, programmers, practice, level1]
 toc: true
-toc_sticky: false
+toc_sticky: true
 author_profile: false
 sidebar:
     nav: "docs"
@@ -193,6 +193,7 @@ numpy 라이브러리에서 numpy.dot은 행렬의 곱을 표현 할 때 사용�
 
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fd3vdNn%2FbtqZiUf5DJv%2FXa1V7fed221qzeyOXTCpmk%2Fimg.png" align="left" width="70%"/>
 
+<br>
 <br>
 <br>
 <br>
