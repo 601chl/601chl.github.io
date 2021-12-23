@@ -26,7 +26,7 @@ search: true
 
 간단한 식 (내적은 어떤 연산인가?)      
     
-![image](https://user-images.githubusercontent.com/86215536/147205293-02a810e7-5117-411c-8ef6-41b3244c1a7a.png)
+![image](https://user-images.githubusercontent.com/86215536/147206360-ab5344f8-7ce7-4ade-991d-d1f32a9ce0af.png)
 
 <br>
 <br>
