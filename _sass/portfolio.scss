@@ -52,7 +52,7 @@
 .img {
 	width: 356px;
 	height: 359px;
-	background: url( "/assets/images/me.jpg" );
+	background: url( "./assets/images/me.jpg" );
 	opacity: 1;
 	position: absolute;
 	top: 0px;
@@ -76,7 +76,7 @@
 	width: 497px;
 	color: rgba(0,0,0,1);
 	position: absolute;
-	top: 81px;
+	top: 74px;
 	left: 0px;
 	font-family: Roboto;
 	font-weight: Regular;
@@ -112,7 +112,7 @@
 }
 .intro_ {
 	width: 769px;
-	height: 504px;
+	height: 534px;
 	background: url("../images/v2_21.png");
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -131,7 +131,7 @@
 	left: 22px;
 	font-family: Roboto;
 	font-weight: Regular;
-	font-size: 20px;
+	font-size: 22px;
 	opacity: 1;
 	text-align: left;
 }
@@ -241,7 +241,7 @@
 .giticon {
 	width: 28px;
 	height: 28px;
-	background: url('/assets/images/icon_gh.png');
+	background: url('./assets/images/icon_gh.png');
 	opacity: 1;
 	position: absolute;
 	top: 0px;
