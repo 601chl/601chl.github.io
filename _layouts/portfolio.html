@@ -15,13 +15,7 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
-  
-    <head>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link href="./portfolio/portfolio.css" rel="stylesheet" />
-    <title>Portfolio</title>
-    </head>
-    
+  <body>
     <div class="back1_">
         <div class="frame1">
             <div class="img_box">
@@ -131,9 +125,7 @@ layout: default
                 </div>
             </div>
         </div>
-    </div>
-    </div>
-
+    </div></body>
 
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
@@ -145,7 +137,7 @@ layout: default
         {% endfor %}
       </div>
     </div>
-<!--   {% comment %}<!-- otherwise show recent posts if no related when `related: true` -->{% endcomment %}
+{% comment %}<!-- otherwise show recent posts if no related when `related: true` -->{% endcomment %}
   {% elsif page.id and page.related %}
     <div class="page__related">
       <h2 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h2>
@@ -158,5 +150,5 @@ layout: default
         {% endfor %}
       </div>
     </div>
-  {% endif %} -->
+  {% endif %}
 </div>
