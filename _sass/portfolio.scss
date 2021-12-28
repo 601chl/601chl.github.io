@@ -52,7 +52,7 @@
 .img {
 	width: 356px;
 	height: 359px;
-	background: url( "me.jpg" );
+	background: url( "{$baseurl}/assets/images/me.jpg" );
 	opacity: 1;
 	position: absolute;
 	top: 0px;
@@ -241,7 +241,7 @@
 .giticon {
 	width: 28px;
 	height: 28px;
-	background: url('/icon_gh.png');
+	background: url('{$baseurl}/assets/images/icon_gh.png');
 	opacity: 1;
 	position: absolute;
 	top: 0px;
@@ -277,7 +277,7 @@
 .youtubeicon {
 	width: 28px;
 	height: 28px;
-	background: url('/icon_yt.png');
+	background: url('{$baseurl}/assets/images/icon_yt.png');
 	opacity: 1;
 	position: absolute;
 	top: 0px;
@@ -313,7 +313,7 @@
 .ppticon {
 	width: 28px;
 	height: 28px;
-	background: url('/icon_pt.png');
+	background: url('{$baseurl}/assets/images/icon_pt.png');
 	opacity: 1;
 	position: absolute;
 	top: 0px;
@@ -335,7 +335,7 @@
 .img1 {
 	width: 508px;
 	height: 310px;
-	background: url('/ppt1.png');
+	background: url('{$baseurl}/assets/images/ppt1.png');
 	opacity: 1;
 	position: absolute;
 	top: 0px;
@@ -358,7 +358,7 @@
 .img2 {
 	width: 508px;
 	height: 310px;
-	background: url('/ppt2.png');
+	background: url('{$baseurl}/assets/images/ppt2.png');
 	opacity: 1;
 	position: absolute;
 	top: 0px;
@@ -393,7 +393,7 @@
 .img3 {
 	width: 508px;
 	height: 310px;
-	background: url('/ppt3.png');
+	background: url('{$baseurl}/assets/images/ppt3.png');
 	opacity: 1;
 	position: absolute;
 	top: 0px;
