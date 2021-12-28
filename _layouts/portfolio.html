@@ -15,9 +15,6 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
-  {% include sidebar.html %}
-
-  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
     <head>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
     <link href="./portfolio/portfolio.css" rel="stylesheet" />
@@ -135,8 +132,6 @@ layout: default
         </div>
     </div>
 
-
-  </article>
 
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
