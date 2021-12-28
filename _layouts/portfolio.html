@@ -1,23 +1,27 @@
 ---
-layout: default
 ---
 
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-  {% include page__hero.html %}
-{% elsif page.header.video.id and page.header.video.provider %}
-  {% include page__hero_video.html %}
-{% endif %}
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
 
-<!-- 
-{% if page.url != "/" and site.breadcrumbs %}
-  {% unless paginator %}
-    {% include breadcrumbs.html %}
-  {% endunless %}
-{% endif %} -->
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+    {% include_cached skip-links.html %}
+    {% include_cached browser-upgrade.html %}
+    {% include_cached masthead.html %}
 
-<div id="main" role="main">
-  <article>
-  <div class="back1_">
+    <div class="initial-content">
+
+    <div class="back1_">
         <div class="frame1">
             <div class="img_box">
                 <div class="shadow"></div>
@@ -57,6 +61,7 @@ layout: default
             
             <span class="title2">프로젝트 이력</span>
             <div class="line2"></div>
+            
             <div class="project1"><span class="text1_">데이터 탐색을 통해 고객감소 문제를 발견했습니다. 감소하는 고객의 구매패턴을 찾고, 구매 감소고객을 예측하여 고객 이탈을
                     방지하는 대응방안을 마련하는 것을 프로젝트의 목표로 하였습니다.
                     <br>
@@ -80,6 +85,7 @@ layout: default
                     <div class="img1"></div>
                 </div>
             </div>
+            
             <div class="project2"><span class="text1_">소아기의 왼쪽 손목과 손가락 관절이 보이는 x-ray사진을 YoLov5s와 Tjnet 딥러닝을 활용하여 골연령을 예측합니다.
                     예측된 골연령과 질병관리청에서 제공된 '소아 청소년 성장도표'를 활용하여 18세 기준 예상 신장을 도출합니다. 프로그램 사용을 용이하게 하기 위해 PyQT5를 활용하여 GUI를
                     구성하였습니다.
@@ -103,6 +109,7 @@ layout: default
                     <div class="img2"></div>
                 </div>
             </div>
+            
             <div class="project3"><span class="text1_">최근 이슈가 되고 있는 어린 세대의 문해력 저하 현상이라는 문제 의식에서 출발하여, 중·고등학생을 타겟으로 문해력 향상을
                     위해 논술을 포함한 글쓰기 학습 및 독서 학습에서 가장 자주 사용하는 학습인 문서 요약 연습을 할 수 있는 서비스를 웹 서비스를 이용하여 제공합니다.
                     <br>
@@ -126,7 +133,24 @@ layout: default
                 </div>
             </div>
         </div>
+    </div>    
     </div>
-    </article>
-</div>
-</div>
+
+  
+      {% if site.search == true %}
+      <div class="search-content">
+        {% include_cached search/search_form.html %}
+      </div>
+    {% endif %}
+
+    <div id="footer" class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include_cached footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>
