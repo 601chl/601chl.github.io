@@ -4,4 +4,4 @@ layout: single
 permalink: /about/
 ---
 
-![](https://601chl.github.io/images/portfolio_img/1.jpg)
+![](https://601chl.github.io/assets/images/portfolio_img/1.jpg)
