@@ -325,7 +325,7 @@ permalink: /about/
                             <p class="lead text-secondary m-2 text_sm">
                             </p>
                         <div class="container" style="background-color:rgb(244,244,244); padding: 5px;">
-                            <img src="/assets/images/img.png">
+                            <img src="/assets/images/img1.png">
                         </div>
                     </div>
                 </div>
