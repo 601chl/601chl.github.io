@@ -44,8 +44,16 @@ permalink: /about/
                         <div class="letsgo my-1">
                             <h4 class="letsgo-title card-title text-dark mb-1"> 
                             <!-- <img> -->
-                            <br> </h4>
-                            <p class="card-text text-secondary"> <br> Easy contact!</p>
+                            </h4>
+                            <p class="card-text text-secondary text-sm" sytle="font-size: 10px"> 
+                            #Python #pandas #sklearn <br> 
+                            #데이터분석 #머신러닝 <br> 
+                            #이미지 #객체탐지 #YOLO  <br> 
+                            #자연어처리 #transformer <br> 
+                            #Django #백엔드
+                            <br> 
+                            <br> 
+                            Easy contact!</p>
                         </div>
                         <div class="letsco-card-form m-2">                            
                             <a href="mailto:qwe121292@gmail.com" class="btn-sm btn-light fa fa-envelope" aria-hidden="true" style="text-decoration: none;"> </a> Gmail
