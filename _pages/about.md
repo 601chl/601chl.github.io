@@ -19,8 +19,8 @@ permalink: /about/
         <div class="container-xxl">
             <div class="row align-items-center">
                 <div class="col-md-8 welcome">
-                    <h1 class="welcom-title m-3">welcome to my
-                        first website. <span class="text-warning fw-bold">  About me : )  </span></h1>
+                    <h1 class="welcom-title m-3"> 성장하는 개발자 최혜정 입니다 : ) <br>
+                    <span class="text-warning fw-bold"> Portfolio  </span></h1>
                     <div class="divider"></div>
                     <div class="row welcome-desc">
                         <div class="card-block">
@@ -38,6 +38,15 @@ permalink: /about/
                             <a href="https://github.com/601chl" class="btn-sm btn-dark fab fa-github" style="text-decoration: none; color: white;"> 깃허브 바로가기</a>
                         </p>
                     </div>
+                    <p class="col-sm-6 col-md-12 mt-3">
+                            <a href="#first" class="btn-sm  fas fa-fire" style="text-decoration: none; color: red;"> 1차프로젝트 [유통기업 데이터 분석]</a>
+                    </p>
+                    <p class="col-sm-6 col-md-12 mt-3">
+                            <a href="#second" class="btn-sm  fas fa-fire" style="text-decoration: none; color: red;"> 2차프로젝트 [골연령예측]</a>
+                    </p>
+                    <p class="col-sm-6 col-md-12 mt-3">
+                            <a href="#third" class="btn-sm  fas fa-fire" style="text-decoration: none; color: red;"> 3차프로젝트 [문해력 향상 프로그램]</a>
+                    </p>
                 </div>
                 <div class="col-md-4 d-none d-md-block letsgo" style="padding-right: 1rem;">
                     <div class="card card-body">
@@ -65,8 +74,8 @@ permalink: /about/
                 <p> K-Digital Traning 과정을 통해서 총 3가지 프로젝트를 완성할 수 있었고, <br> 파이썬을 능숙하게 다룰 수 있도록 성장하였습니다.</p>
                 <div class="card mt-4">
                     <div class="row align-items-center m-2" >
-                        <div class="col-12 m-2">
-                            <h5> 1) 세번째 프로젝트 </h5>
+                        <div class="col-12 m-2" id="third">
+                            <h5> 3) 세번째 프로젝트 </h5>
                             [한국어 도서 말뭉치를 활용한 인공지능: 문해력 향상 프로그램] 
                         </div>
                         <div class="col-md-6 slide1-header text-center">                            
@@ -138,7 +147,7 @@ permalink: /about/
                 </div>                
                 <div class="card mt-4">
                     <div class="row align-items-center m-2" >
-                        <div class="col-12 m-2">
+                        <div class="col-12 m-2" id="second">
                             <h5> 2) 두번째 프로젝트 </h5>
                             [골연령예측: 소아/청소년의 뼈 나이 예측 프로그램] 
                         </div>
@@ -226,8 +235,8 @@ permalink: /about/
                 </div>
                 <div class="card mt-4">
                     <div class="row align-items-center m-2" >
-                        <div class="col-12 m-2">
-                            <h5> 3) 첫번째 프로젝트  </h5>
+                        <div class="col-12 m-2" id="first">
+                            <h5> 1) 첫번째 프로젝트  </h5>
                             [유통기업 데이터 분석: 구매 감소 고객 예측 및 활용 방안]
                         </div>
                         <div class="col-md-6 slide1-header text-center">                            
