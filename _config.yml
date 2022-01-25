@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "ko-KR"
 title                    : "try try try"
 title_separator          : "|"
-subtitle                 : "junior"# site tagline that appears below site title in masthead
+subtitle                 : "junior" # site tagline that appears below site title in masthead
 name                     : "HyeJeong Choi"
 description              : "To do everything. You can do it"
 url                      : "https://601chl.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -122,7 +122,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/601chl"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -138,7 +138,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/601chl"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
