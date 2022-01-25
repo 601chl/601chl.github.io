@@ -1,6 +1,8 @@
 ---
 layout: single
 title:  "programmers_coding_문제2_소수만들기"
+header:
+      teaser: "/assets/images/programmers/level1.png"
 categories: coding_practice
 tag: [python, coding, study, programmers, practice, level1]
 toc: true

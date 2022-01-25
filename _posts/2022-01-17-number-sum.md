@@ -1,6 +1,8 @@
 ---
 layout: single
 title:  "programmers_coding_문제3_없는숫자더하기"
+header:
+      teaser: "/assets/images/programmers/level1.png"
 categories: coding_practice
 tag: [python, coding, study, programmers, practice, level1]
 toc: true
@@ -32,14 +34,14 @@ def solution(numbers):
 <br>
 
 ```python
-# 간단 풀이 1
+# 풀이 2
 def solution(numbers):
     return 45 - sum(numbers)
 ```
 
 
 ```python
-# 간단 풀이 2
+# 풀이 3
 solution = lambda x: sum(range(10)) - sum(x)
 ```
 #### lambda           
@@ -57,7 +59,7 @@ lambda i: a[i]×b[i]
 i를 인자로 받아서 a[i]×b[i]를 리턴함.          
 
 ```python
-# 간단 풀이 3
+# 풀이 4
 def solution(numbers):
     return sum([i for i in [1,2,3,4,5,6,7,8,9,0] if i not in numbers])
 ```

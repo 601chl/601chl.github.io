@@ -1,6 +1,8 @@
 ---
 layout: single
 title:  "Python_stat_정리"
+header:
+      teaser: "/assets/images/python.png"
 categories: python
 tag: [python, stat, summarize]
 toc: true

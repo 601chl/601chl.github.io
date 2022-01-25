@@ -2,6 +2,8 @@
 layout: single
 title:  "Django 시작하기"
 categories: python-django
+header:
+      teaser: "/assets/images/django.png"
 tag: [study, python, django, tutorial]
 toc: true
 toc_sticky: true
@@ -12,15 +14,17 @@ search: true
 ---
 
 
-![django]("../../../assets/images/django.png)
+![django](../../../assets/images/django.png)
 
 <br>
 
-# 장고 시작하기    
+< 장고 시작하기 >      
 출처 : [Django 4.0 documentation, 장고에 대해 알아야할 모든것](https://docs.djangoproject.com/en/4.0/)
 
+<br>
+<br>
 
-## Django 훑어보기
+# Django 훑어보기
 - 파이썬으로 만들어진 무료 오픈소스 웹 애플리케이션 프레임워크(web application framework)     
   출처 및 추천: [장고란 무엇인가요? 왜 프레임워크가 필요한가요?](https://tutorial.djangogirls.org/ko/django/)
 
@@ -30,12 +34,13 @@ search: true
 <br>
 <br>
 
-### 모델설계
+## 모델설계
 - 장고를 데이터베이스 없이 쓸 수 있지만, 데이터베이스 레이아웃을 파이썬 코드로 표현하는 object-relational mapper 가 같이 따라옴.      
   ORM(Object Relational Mapping, 객체-관계 매핑) : 객체와 관계형 데이터베이스의 데이터를 자동으로 연결해주는 것, 객체 지향 프로그래밍은 class를 사용하고 관계형 데이터베이스는 테이블을 사용함.       
   출처 : [OMR이란](https://gmlwjd9405.github.io/2019/02/01/orm.html)
        
--  model.py 는 설계할 db모델을 표현하는 풍부한 방법을 제공해줌.     
+-  model.py 는 설계할 db모델을 표현하는 풍부한 방법을 제공해줌. 
+      
 ```python
 # model.py 예시
 from django.db import models
@@ -54,7 +59,7 @@ class Article(models.Model):
 <br>
 <br>
 
-### 모델설치(데이터베이스 생성)
+## 모델설치(데이터베이스 생성)
 django command-line 유틸리티를 실행, 백엔드 지원 : PostgreSQL, MySQL, SQLite 
 
 ```bash
@@ -91,17 +96,18 @@ $ python manage.py migrate
 <br>
 <br>
 
-### 자유로운 API 
+## 자유로운 API 
 자료에 접근할 수 있는 자유롭고 풍부한 Python API 이용 가능, API는 즉시 생성되며, 코드 생성이 필요없다.
 
 - models을 만들면 Django는 자동으로 객체들을 만들고 읽고 수정하고 지울 수 있는 데이터베이스-추상화 API를 만들어냄.
 
 <br>
 
-#### 객체 만들기
+### 객체 만들기
 (모델은 ``mysite/app/models.py``에 있다고 가정)
 
 - 모델 클래스가 데이터베이스의 테이블을 나타내고, 그 클래스의 인스턴스가 데이터베이스 테이블의 각 레코드를 표현하는 것
+  
 ```python
 # 객체 생성 예시
 from app.models import Blog
@@ -116,7 +122,7 @@ b.save()
 
 <br>
 
-#### 객체 변경사항 저장하기
+### 객체 변경사항 저장하기
 ```python
 # 객체를 변경한 후 저장
 from app.models import Blog
@@ -129,7 +135,7 @@ b.save()
 
 <br>
 
-#### ForeignKey와 ManyToManyField 필드 저장
+### ForeignKey와 ManyToManyField 필드 저장
 ```python
 #  Blog, Entry 모델이 있다고 가정.
 #  This example updates the blog
@@ -158,7 +164,7 @@ ringo = Author.objects.create(name="Ringo")
 entry.authors.add(john, paul, george, ringo))
 ```
 
-#### 객체 조회
+### 객체 조회
 데이터베이스에 있는 객체들을 조회, QuerySet 만들어 이용
 ```python
 Blog.objects
@@ -212,8 +218,8 @@ all_entries = Entry.objects.all()
 <br>
 <br>
 
-### 동적인 관리자 인터페이스
-admin sit에 모델 객체를 등록
+## 동적인 관리자 인터페이스
+admin site에 모델 객체를 등록
 ```python
 # mysite/app/admin.py
 from django.contrib import admin
@@ -227,7 +233,7 @@ admin.site.register(Article)
 <br>
 <br>
 
-### URL 설계
+## URL 설계
 Reporter/Article 예제
 ```python
 # mysite/app/urls.py
@@ -248,7 +254,7 @@ urlpatterns = [
 <br>
 <br>
 
-### 뷰 작성
+## 뷰 작성
 요청된 페이지의 내용을 담고 있는 HttpResponse 객체를 반환하거나, Http404 같은 예외를 발생        
 일반적으로 파라미터들에 따라 데이터를 가져오며, 템플릿을 로드하고 템플릿을 가져온 데이터로 렌더링함.         
 ```python
@@ -268,25 +274,25 @@ def year_archive(request, year):
 <br>
 <br>
 
-### 템플릿 작성
+## 템플릿 작성
 위의 코드는 app/year_archive.html 템플릿을 로드
 - 장고는 템플릿들중 중복을 최소화할 수 있게 하는 템플릿 검색 경로를 가지고 있음. project에서 settings.py에 DIRS 템플릿을 확인하기 위한 디렉토리의 목록을 명시함.
 - 만약 첫번째 디렉토리에 템플릿이 존재하지 않으면, 두번째 디렉토리, 그 외 디렉토리를 점검.
 
 "base.html" 기본 템플릿 예시
 ```html
-{% load static %}
+{% raw %} {% load static %} {% endraw %}
 <html>
 <head>
-    <title>{% block title %}{% endblock %}</title>
+    <title> {% raw %} {% block title %}{% endblock %} {% endraw %} </title>
 </head>
 <body>
-    <img src="{% static 'images/sitelogo.png' %}" alt="Logo">
-    {% block content %}{% endblock %}
+    {% raw %} <img src="{% static 'images/sitelogo.png' %}" alt="Logo"> {% endraw %}
+    {% raw %} {% block content %}{% endblock %} {% endraw %}
 </body>
 </html>
 ```
 - settings.py에서 템플릿과 마찬가지로 static DIR 경로 설정 가능.     
-- 간단하게 사이트를 정의하고 하위 템플릿이 채울 수 있는 **구멍( {% block title %}{% endblock %}, {% block content %}{% endblock %} )** 들을 제공함.   
-- {% extends "base.html" %} 이용하여 다른 템플릿파일에 상속 가능.      
-- {% include "base.html" %} 이용하여 다른 템플릿파일에 포함 가능.        
+- 간단하게 사이트를 정의하고 하위 템플릿이 채울 수 있는 **구멍( {% raw %} {% block title %}{% endblock %}, {% block content %}{% endblock %} {% endraw %} )** 들을 제공함.   
+- {% raw %} {% extends "base.html" %} {% endraw %} 이용하여 다른 템플릿파일에 상속 가능.      
+- {% raw %} {% include "base.html" %} {% endraw %} 이용하여 다른 템플릿파일에 포함 가능.        
