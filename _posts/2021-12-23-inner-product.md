@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "programmers_coding_문제1_내적"
+title:  "programmers_문제1_내적"
 header:
       teaser: "/assets/images/programmers/level1.png"
 categories: coding_practice

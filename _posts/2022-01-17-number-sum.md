@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "programmers_coding_문제3_없는숫자더하기"
+title:  "programmers_문제3_없는숫자더하기"
 header:
       teaser: "/assets/images/programmers/level1.png"
 categories: coding_practice
