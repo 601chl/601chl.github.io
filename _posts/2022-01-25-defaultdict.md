@@ -1,0 +1,184 @@
+---
+layout: single
+title:  "programmers_coding_문제5_신고 결과 받기"
+header:
+      teaser: "/assets/images/programmers/level1.png"
+categories: coding_practice
+tag: [python, coding, study, programmers, practice, level1]
+toc: true
+toc_sticky: true
+author_profile: false
+sidebar:
+    nav: "docs"
+search: true
+---
+
+
+## 목표     
+: 게시판 불량 이용자를 신고하고 처리 결과를 메일로 발송하는 시스템을 개발하려고 함. 개발 시스템은 문제에 제시됨. 처리 결과 메일을 받은 횟수 리턴하도록 함수 완성하기.
+
+
+
+### python 풀이 모음
+
+- 핵심 키
+Dictionary를 사용,          
+신고를 k번 받은 사람만 정지됨.            
+-> key = 신고 받은 사람으로 설정        
+-> value = 신고를 한 사람          
+value 가 k개(신고당한게 k번) 이상이 되면, value 값에 있는 사람이 메일을 받는다.
+
+
+
+```python
+# 통과완료
+def solution(id_list, report, k):
+    #  id_list에 담긴 전체 id를 딕셔너리(key:value)에 key로 만들고 value에 리스트를 담아준다.
+    dic_report = {id: [] for id in id_list}
+
+    # return 받는 answer에 id_list 에 있는 개수만큼 0으로 채운다. 메일받는 횟수 count로 +1 적용하기 위함.
+    answer = [0] * len(id_list)
+    
+    # report 에서 중복을 제거하기위해 set(report) 적용
+    for r in set(report):
+        r = r.split(' ')
+        dic_report[r[1]].append(r[0])
+        # dic_report의 key에 있는 id가 r[1](신고당한사람)인 딕셔너리에, r[0](신고한사람)을 value 값 리스트에 담는다.
+        # value 리스트에 담긴 개수를 보면 신고당한 횟수를 알 수 있다.
+        
+    for key, value in dic_report.item():
+        # 신고당한 id 가 k 번이상 신고당하면, 신고한 사람에게 처리메일이 발송됨.
+        if len(value) >= k:
+            for id_ in value:
+                # 다시 짚고 넘어가기, 딕셔너리 value는 신고한 사람.
+                # 처리메일을 받는 사람은 신고한 사람.
+
+                # ld_list에 있는 아이디 인덱스값을 받아서 answer 리스트 같은 자리에 1을 더한다.
+                # 신고한사람 자리에 +1 
+                answer[ld_list.index(id_)] +=1
+
+    return answer
+
+```
+
+<br>
+
+
+```python
+# 통과못한 풀이 
+def solution(id_list, report, k):
+    answer = []
+    report_li = []
+    reported = []
+    user_id  = []
+    
+    report = set(report)
+
+    for i in report:
+        user = i.split( )
+        report_li.append(user[-1])
+
+
+    for i in report_li:
+        cnt = report_li.count(i)
+        if cnt >=k :
+            reported.append(i)
+
+    reported = set(reported)
+
+
+    for j in report:
+        user = j.split( )
+        for i in reported:
+            if user[-1] == i:
+                user_id.append(user[0])
+
+    for id_ in id_list:
+        cnt_id = user_id.count(id_)
+        answer.append(cnt_id)
+
+    return answer
+```
+채점 결과
+정확성: 66.7
+합계: 66.7 / 100.0
+
+복잡하게 풀이해놨더니 시간초과로 통과하지 못한 테스트가 24개 중에 6개 였다.
+
+
+
+<br>
+<br>
+
+```python
+# 다른 풀이 1
+def solution(id_list, report, k):
+    answer = [0] * len(id_list)    
+    reports = {x : 0 for x in id_list}
+
+    for r in set(report):
+        reports[r.split()[1]] += 1
+
+    for r in set(report):
+        if reports[r.split()[1]] >= k:
+            answer[id_list.index(r.split()[0])] += 1
+
+    return answer
+
+```
+
+
+<br>
+
+
+```python
+# 다른 풀이 2
+def solution(id_list, report, k):
+    answer = []
+
+    reported_users = {}
+    u_index = {}
+
+    for i,id in enumerate(id_list):
+        reported_users[id] = []
+        u_index[id] = i
+        answer.append(0)
+
+    for r in report:
+        user, target = r.split()
+        reported_users[target].append(user)
+
+    for target in reported_users:
+        users = set(reported_users[target])
+        if len(users) < k: continue
+        for user in users:
+            answer[u_index[user]] +=1
+
+    return answer
+```
+
+
+### enumerate
+파이썬 내장함수, enumerate 는 "열거하다"라는 뜻     
+순서가 있는 자료형(리스트, 튜플, 문자열)을 입력으로 받아 인덱스 값을 포함하는 enumerate 객체를 리턴함.     
+※ 보통 enumerate 함수는 다음 예제처럼 for문과 함께 자주 사용
+```python
+for i, name in enumerate(['body', 'foo', 'bar']):
+    print(i, name)
+
+[output]  0 body
+          1 foo
+          2 bar
+```
+순서 값과 함께 body, foo, bar가 순서대로 출력됨.
+enumerate를 for문과 함께 사용하면 자료형의 현재 순서(index)와 그 값을 쉽게 알 수 있디.
+
+<br>
+<br>
+<br>
+
+
+
+
+(출처 : 프로그래머스, [코딩테스트 연습](https://programmers.co.kr/learn/challenges) )     
+(출처 : https://zest1923.tistory.com/65)

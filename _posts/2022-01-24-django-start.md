@@ -85,9 +85,9 @@ $ python manage.py migrate
 
 <br>
 
-> 이미 설계되어있는 데이터베이스 테이블을 django와 연결하여 사용할 때, 모델파일 생성하기.(마이그레이션 불필요, 관리되지 않는 모델)       
-> python manage.py inspectdb > models.py
-> class에 managed = False를 삭제 또는 변경해줘야 db모델관리 가능
+> 이미 설계되어있는 데이터베이스 테이블을 django와 연결하여 사용할 때, 모델파일 생성하기.(마이그레이션 불필요, 관리되지 않는 모델)         
+> python manage.py inspectdb > models.py        
+> class에 managed = False를 삭제 또는 변경해줘야 db모델관리 가능            
 
 <br>
 
