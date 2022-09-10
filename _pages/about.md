@@ -29,8 +29,12 @@ permalink: /about/
                             (CAKD3, 빅데이터 기반 AI응용 솔루션 개발자 전문과정)
                             </div>
                             <div class="card-block m-2 mt-3 alert-{{message.tag}}"> 
-                            - 2022.01 ~   <br>
+                            - 2022.01 ~ 2022.01  <br>
                             PROJECT LION, 백엔드 익스턴십 <br>
+                            </div>
+                            <div class="card-block m-2 mt-3 alert-{{message.tag}}"> 
+                            - 2022.09 ~   <br>
+                            국민대학교 소프트웨어융합대학원 <br>
                             </div>
                         </div>
                         <p class="col-sm-6 col-md-12 mt-3">
