@@ -38,7 +38,7 @@ permalink: /about/
                             </div>
                         </div>
                         <p class="col-sm-6 col-md-12 mt-3">
-                            <a href="https://github.com/601chl" class="btn-sm btn-dark fab fa-github" style="text-decoration: none; color: white;"> 깃허브 바로가기</a>
+                            <a href="https://github.com/hye-jj" class="btn-sm btn-dark fab fa-github" style="text-decoration: none; color: white;"> 깃허브 바로가기</a>
                         </p>
                     </div>
                     <p class="col-sm-6 col-md-12 mt-3">
