@@ -102,9 +102,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "601chl"
+  name             : "hye jj"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I'm new.✨"
+  bio              : "✨"
   location         : "South Korea"
   email            : qwe121292@gmail.com
   links:
@@ -122,7 +122,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/601chl"
+      url: "https://github.com/hye-jj"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -138,7 +138,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/601chl"
+      url: "https://github.com/hye-jj"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
